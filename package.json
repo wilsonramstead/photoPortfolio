@@ -1,0 +1,11 @@
+{
+  "name": "paulowebsite",
+  "version": "1.0.0",
+  "description": "Paulo's photography portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wilson Ramstead",
+  "license": "ISC"
+}
