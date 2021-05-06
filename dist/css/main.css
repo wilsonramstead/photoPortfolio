@@ -21,42 +21,56 @@ header {
     position: relative;
     z-index: 1; }
 
-.aboutInfo .left,
-.aboutInfo .right {
-  vertical-align: top;
-  height: 100%;
-  font-family: "Open Sans", sans-serif;
-  padding: 10px;
-  color: #fff; }
-  .aboutInfo .left h1,
-  .aboutInfo .right h1 {
+.aboutInfo,
+.contactInfo {
+  color: #fff;
+  font-family: "Open Sans", sans-serif; }
+  .aboutInfo h1,
+  .contactInfo h1 {
     line-height: 1.2em;
     letter-spacing: 0px;
     font-weight: 600;
     margin-bottom: 0.75em; }
-  .aboutInfo .left p,
-  .aboutInfo .right p {
+  .aboutInfo p,
+  .contactInfo p {
     font-size: 14px;
     line-height: 1.6em;
     letter-spacing: 0.5px;
     font-weight: 300; }
-  .aboutInfo .left img,
-  .aboutInfo .right img {
-    max-width: 100%; }
+  .aboutInfo .left,
+  .aboutInfo .right,
+  .contactInfo .left,
+  .contactInfo .right {
+    vertical-align: top;
+    height: 100%;
+    padding: 10px; }
+    .aboutInfo .left img,
+    .aboutInfo .right img,
+    .contactInfo .left img,
+    .contactInfo .right img {
+      max-width: 100%; }
+
+.contactInfo {
+  padding: 10px; }
 
 @media screen and (max-width: 767px) {
   header .lg-heading {
     font-size: 2.5rem; }
-  .aboutInfo {
+  .aboutInfo,
+  .contactInfo {
     width: 90%;
     margin: 10px auto; }
     .aboutInfo .left,
-    .aboutInfo .right {
+    .aboutInfo .right,
+    .contactInfo .left,
+    .contactInfo .right {
       display: block; }
-    .aboutInfo .left {
+    .aboutInfo .left,
+    .contactInfo .left {
       width: 50%;
       margin: 0px auto; }
-    .aboutInfo .right {
+    .aboutInfo .right,
+    .contactInfo .right {
       width: 100%; } }
 
 @media screen and (min-width: 768px) {
@@ -71,4 +85,7 @@ header {
     .aboutInfo .left,
     .aboutInfo .right {
       display: inline-block;
-      width: 49.5%; } }
+      width: 49.5%; }
+  .contactInfo {
+    width: 70%;
+    margin: 60px auto; } }
