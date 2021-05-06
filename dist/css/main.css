@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+#main {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: #333b3f; }
+
+header {
+  width: 100vw;
+  height: 100px;
+  background: #e2e2e2; }
+  header .lg-heading {
+    padding: 5px 15;
+    font-family: "Poiret One", cursive;
+    display: inline-block; }
+  header .navbar {
+    position: relative;
+    z-index: 1; }
+
+@media screen and (max-width: 767px) {
+  header .lg-heading {
+    font-size: 2.5rem; } }
+
+@media screen and (min-width: 768px) {
+  .navbar-right {
+    position: absolute;
+    right: 2%; }
+  header .lg-heading {
+    font-size: 3rem; } }
