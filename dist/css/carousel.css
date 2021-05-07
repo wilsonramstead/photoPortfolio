@@ -5,7 +5,7 @@
 
 .gallery-cell {
   width: 28%;
-  height: 450px;
+  height: 480px;
   margin-right: 10px;
 
   counter-increment: gallery-cell;
