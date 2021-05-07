@@ -6,8 +6,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
   width: 100vw;
-  background-color: #e2e2e2;
-  padding-bottom: 100px; }
+  background-color: #e2e2e2; }
 
 header .lg-heading {
   padding: 5px 15;
@@ -51,6 +50,8 @@ header .navbar {
   padding: 10px; }
 
 @media screen and (max-width: 767px) {
+  #main {
+    padding-bottom: 100px; }
   header .lg-heading {
     font-size: 2.5rem; }
   .aboutInfo,
@@ -68,7 +69,16 @@ header .navbar {
       margin: 0px auto; }
     .aboutInfo .right,
     .contactInfo .right {
-      width: 100%; } }
+      width: 100%; }
+  .signature {
+    height: 30px;
+    position: relative;
+    bottom: 0;
+    padding: 6px;
+    text-align: center;
+    background-color: #414141;
+    color: white;
+    font-size: 0.8rem; } }
 
 @media screen and (min-width: 768px) {
   .navbar-right {
@@ -85,4 +95,9 @@ header .navbar {
       width: 49.5%; }
   .contactInfo {
     width: 70%;
-    margin: 60px auto; } }
+    margin: 60px auto; }
+  .signature {
+    position: absolute;
+    font-size: 0.8rem;
+    right: 20px;
+    bottom: 5px; } }
