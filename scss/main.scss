@@ -9,6 +9,7 @@
   width: 100vw;
   //   background-color: #333b3f;
   background-color: #e2e2e2;
+  padding-bottom: 100px;
 }
 
 header {
@@ -21,6 +22,12 @@ header {
     position: relative;
     z-index: 1;
   }
+}
+.sm-heading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  margin: 10px auto;
+  padding: 10px 30px;
 }
 
 // -------- aboutPage ------------------------------------
