@@ -7,12 +7,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
   width: 100vw;
-  //   background-color: #333b3f;
   background-color: #e2e2e2;
   padding-bottom: 100px;
 }
 #primaryColor {
-  color: rgb(53, 19, 73);
+  color: #0a6812;
 }
 
 header {
@@ -32,18 +31,16 @@ header {
   margin: 20px auto;
   padding: 10px 30px;
 }
-
 // -------- aboutPage ------------------------------------
 .aboutInfo,
 .contactInfo {
   color: black;
   font-family: "Open Sans", sans-serif;
-
   h1 {
     line-height: 1.2em;
     letter-spacing: 0px;
     font-weight: 600;
-    margin-bottom: 0.75em;
+    margin-bottom: 0.3em;
   }
   p {
     font-size: 1.2srem;
@@ -51,7 +48,6 @@ header {
     letter-spacing: 0.5px;
     font-weight: 300;
   }
-
   .left,
   .right {
     vertical-align: top;
@@ -62,13 +58,6 @@ header {
     }
   }
 }
-// .signature {
-//   // position: absolute;
-//   // font-size: 0.8rem;
-//   // right: 20px;
-//   // bottom: 5px;
-// }
-
 // -------- contactPage ------------------------------------
 .contactInfo {
   padding: 10px;
@@ -118,7 +107,7 @@ header {
     font-size: 3rem;
   }
   .aboutInfo {
-    width: 700px;
+    width: 735px;
     margin: 60px auto;
 
     .left,
