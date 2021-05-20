@@ -5,7 +5,7 @@
 
 .gallery-cell {
   width: 28%;
-  height: 480px;
+  /* height: 480px; */
   margin-right: 10px;
 
   counter-increment: gallery-cell;
@@ -32,6 +32,17 @@
     height: 400px;
     width: 80%;
     margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery-cell {
+    height: 550px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .gallery-cell {
+    height: 700px;
   }
 }
 
